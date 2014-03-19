@@ -14,11 +14,11 @@ Vagrant.configure("2") do |config|
       # please see the online documentation at vagrantup.com.
       master_config.vm.hostname = "puppet.grahamgilbert.dev"
       # Every Vagrant virtual environment requires a box to build off of.
-      master_config.vm.box = "precise64"
+      master_config.vm.box = "precise32"
     
       # The url from where the 'master_config.vm.box' box will be fetched if it
       # doesn't already exist on the user's system.
-      master_config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+      master_config.vm.box_url = "http://files.vagrantup.com/precise32.box"
       
       # If you're using VMWare Fusion rather than Virtualbox, you'll want to use this box_url instead
       # master_config.vm.box_url = "http://files.vagrantup.com/precise64_vmware_fusion.box"
